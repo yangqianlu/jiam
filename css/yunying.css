@@ -35,7 +35,7 @@ font-size: 0.2rem;color: #fff;background: #7ed321;width: 0.64rem;height: 0.3rem;
   }
   .mr_ju{margin-right: 2rem;}
   .shuju li span{font-size: 0.34rem;color: #ff5a3d;margin-top: 0.1rem;margin-bottom: 0.1rem;display: inline-block;}
-  .jiqi{margin:1.84rem 0.6rem 0;}
+  .jiqi{margin:1.6rem 0.6rem 0;}
   .bianhao{color: #5d5d5d;font-size: 0.3rem;overflow: hidden;}
    .bianhao a{color: #a8aab2;}
    .dizhi{color: #a8aab2;font-size: 0.26rem;}
@@ -59,11 +59,17 @@ font-size: 0.2rem;color: #fff;background: #7ed321;width: 0.64rem;height: 0.3rem;
    	color: #954633;
    	font-size: 0.42rem;    line-height: 30px;
    }
-.leiji_con{margin-top: 0.2rem;}
+
    .leiji_con button{width: 1.7rem;height: 0.7rem;background: -webkit-linear-gradient(left,#f78140, #fa6b56); 
   background: -o-linear-gradient(left,#f78140, #fa6b56); /* Opera 11.1 - 12.0 */
   background: -moz-linear-gradient(left,#f78140, #fa6b56); /* Firefox 3.6 - 15 */
   background: linear-gradient(left,#f78140, #fa6b56); /* 标准的语法 */; 
 	border:none;border-radius: 8px;
 	font-size: 0.28rem;color: #fff;line-height: 0.7rem;text-align: center;margin-top: 0.1rem;
+}
+
+@media screen and (min-width:320px) and(max-width:500px)  {
+    .jiqi {
+    margin: 1.6rem 0.6rem 0;
+	}
 }
