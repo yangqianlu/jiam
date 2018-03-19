@@ -1,0 +1,44 @@
+.danger_bg{
+	height: 2.99rem;
+	width: 100%;
+	background: -webkit-linear-gradient(#f78140, #fa6b56); 
+  background: -o-linear-gradient(#f78140, #fa6b56); /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(#f78140, #fa6b56); /* Firefox 3.6 - 15 */
+  background: linear-gradient(#f78140, #fa6b56); /* 标准的语法 */;
+}
+.content{
+	height: 9.9rem;border-radius: 8px;padding: 0.64rem;box-sizing: border-box;
+	position: absolute;top:0.33rem;width:6.94rem;background: #fff;box-shadow: 0 0 5px #b2b2b2;left:50%;margin-left:-3.465rem ;
+}
+.content h1{
+	font-weight: normal;color: #5d5d5d;font-size: 0.36rem;margin-bottom:0.44rem;width: 3.72rem; background: url(../images/ques.jpg) no-repeat right center;background-size: 0.4rem;
+}
+.title{
+	margin-bottom: 0.3rem;overflow: hidden;
+
+}
+.title p{
+	font-size: 0.32rem;color: #ff5b3e;float: left;width: 33.333%;text-align: center;
+}
+.title p:nth-child(1){
+	text-align: left;
+}
+.title p:nth-child(3){text-align: right;}
+.neirong{overflow: hidden;}
+.neirong p{
+	font-size:0.32rem;color: #525252;float: left;width: 33.333%;text-align: center;
+}
+.neirong p:nth-child(1){
+	text-align: left;
+}
+.neirong p:nth-child(3){    text-align: right;
+    width: 30%;}
+ .address{color: #a8aab2;font-size: 0.26rem;margin-bottom: 0.3rem;}
+ .dan_footer{height: 1.33rem;position: fixed;bottom: 0;left:0;width: 100%;box-shadow: 0 0 5px #b2b2b2;padding: 0.2rem 0.4rem;box-sizing:border-box;}
+ .dan_footer p{color: #9b9da4;font-size: 0.28rem;}
+ .dan_footer p a{
+ 	color: #fff;text-align: center;display: inline-block;line-height: 0.52rem;
+ 	width: 0.83rem;height: 0.52rem;background: #f77f42;border-radius: 5px;margin:0 10px 0;
+ }
+
+.active{color: #7ed321!important;}

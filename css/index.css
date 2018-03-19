@@ -1,0 +1,30 @@
+
+
+html{width: 100%;height: 100%;}
+body{width: 100%;height: 100%;
+ background: -webkit-linear-gradient(#f78140, #fa6b56); 
+  background: -o-linear-gradient(#f78140, #fa6b56); /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(#f78140, #fa6b56); /* Firefox 3.6 - 15 */
+  background: linear-gradient(#f78140, #fa6b56); /* 标准的语法 */
+}
+.imgbox{
+	width: 100%;text-align: center;
+}
+.imgbox img{width: 4.4rem;margin-top:1.8rem;margin-left: auto;margin-right: auto;margin-bottom: 1.4rem;}
+
+
+.link_con{
+	width: 100%;
+}
+.link_con li{
+	margin:0 auto;margin-bottom: 0.55rem;
+	width: 3.5rem;height: 1.14rem;border: 1px solid #fff;font-size: 0.42rem;text-align: center;line-height: 1.14rem;
+}
+.link_con  li a{color: #fff;}
+.footer{
+color: #fff;text-align: center;position: fixed;bottom: 0.86rem;left:50%;transform: translate(-50%,-50%);
+}
+.footer .per{font-size:0.28rem;}
+.footer .num{
+	font-size: 0.36rem;margin-top: 0.1rem;
+}
